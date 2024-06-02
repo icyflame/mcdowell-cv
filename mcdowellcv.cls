@@ -53,7 +53,7 @@
 \LoadClass[\papersize,\mainfontsize]{article}
 
 % Set document margins
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+\usepackage[left=0.3in,top=0.4in,right=0.3in,bottom=0.2in]{geometry}
 
 % Set font face
 \usepackage{fontspec}
@@ -108,13 +108,13 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
   \def\beforesectionheaderhrulespace{2.85pt}
   \def\sectionheaderhrlueheight{0.518pt}
   \def\aftersectionheaderspace{-5.8pt}
-  
+
   \ifpapersize
     \def\aftersinglelinesubsectionheaderspace{-5.75pt}
   \else
     \def\aftersinglelinesubsectionheaderspace{-20.25pt}
   \fi
-  
+
   \def\afterdoublelinesubsectionheaderspace{-11.75pt}
   \def\aftermultilinesubsectionheaderspace{-7.75pt}
   \def\afteremptysubsectionheaderspace{1.25pt}
@@ -128,7 +128,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
   \def\beforesectionheaderhrulespace{3pt}
   \def\sectionheaderhrlueheight{0.5pt}
   \def\aftersectionheaderspace{-4pt}
-  
+
   \ifpapersize
     \def\aftersinglelinesubsectionheaderspace{-4pt}
   \else
