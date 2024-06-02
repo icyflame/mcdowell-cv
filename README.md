@@ -18,7 +18,7 @@ The class is based on `article` class. The paper format is set to U.S. letterpap
    version 1.1.0.
  - `a4paper` - sets the paper size to a4paper
  - `liberationserif` - sets the font to Liberation Serif (a free substitute for the Times New Roman
-   font, [[https://en.wikipedia.org/wiki/Liberation_fonts][Liberation fonts - Wikipedia]])
+   font, [Liberation fonts - Wikipedia](https://en.wikipedia.org/wiki/Liberation_fonts)
 
 ## Commands
 The class features the following commands:
