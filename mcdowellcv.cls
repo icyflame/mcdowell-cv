@@ -110,7 +110,7 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
   \def\aftersectionheaderspace{-2pt}
 
   \ifpapersize
-    \def\aftersinglelinesubsectionheaderspace{-5.75pt}
+    \def\aftersinglelinesubsectionheaderspace{-18pt}
   \else
     \def\aftersinglelinesubsectionheaderspace{-20.25pt}
   \fi
