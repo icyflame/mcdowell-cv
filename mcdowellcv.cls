@@ -102,12 +102,12 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
 
 \ifthenelse{\equal{\platformname}{\notwindowsname}}{
   \def\namespaceskip{0.575em}
-  \def\afterheaderspace{1.1pt}
-  \def\beforesectionheaderspace{5pt}
+  \def\afterheaderspace{3pt}
+  \def\beforesectionheaderspace{4.75pt}
   \def\sectionheadermargin{6pt}
   \def\beforesectionheaderhrulespace{2.85pt}
-  \def\sectionheaderhrlueheight{0.518pt}
-  \def\aftersectionheaderspace{-5.8pt}
+  \def\sectionheaderhrlueheight{0.5pt}
+  \def\aftersectionheaderspace{-2pt}
 
   \ifpapersize
     \def\aftersinglelinesubsectionheaderspace{-5.75pt}
@@ -115,11 +115,11 @@ Ligatures={TeX, NoCommon, NoDiscretionary}]{\mainfontface}
     \def\aftersinglelinesubsectionheaderspace{-20.25pt}
   \fi
 
-  \def\afterdoublelinesubsectionheaderspace{-11.75pt}
-  \def\aftermultilinesubsectionheaderspace{-7.75pt}
-  \def\afteremptysubsectionheaderspace{1.25pt}
+  \def\afterdoublelinesubsectionheaderspace{-2pt}
+  \def\aftermultilinesubsectionheaderspace{-1pt}
+  \def\afteremptysubsectionheaderspace{3pt}
   \def\subsectionmargin{9pt}
-  \def\aftersubsectionspace{2.1pt}
+  \def\aftersubsectionspace{4pt}
 }{
   \def\namespaceskip{0.4em}
   \def\afterheaderspace{3pt}
