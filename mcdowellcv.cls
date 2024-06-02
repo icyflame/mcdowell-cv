@@ -29,6 +29,9 @@
 \DeclareOption{calibri}{%
   \def\mainfontface{Calibri}
 }
+\DeclareOption{liberationserif}{%
+  \def\mainfontface{LiberationSerif}
+}
 
 % Set up papersize according to options, default to US letter
 \def\papersize{letterpaper}
